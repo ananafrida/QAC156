@@ -1,0 +1,355 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                          GSS 1972-2008 Cumulative Dataset
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      GSS 1972-2008 Cumulative Dataset                                  Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             CASE IDENTIFICATION NUMBER                          1
+      ABANY              ABORTION IF WOMAN WANTS FOR ANY REASON              1
+      ABFIRM             HOW FIRM IS RS OPINION ON ABORTION                  1
+      ABIMP              IMPORTANCE OF ABORTION ISSUE TO R                   2
+      ABINFO             HOW MUCH INFO DOES R HAVE ON ABORTION               2
+      DEGREE             RS HIGHEST DEGREE                                   3
+      EDUC               HIGHEST YEAR OF SCHOOL COMPLETED                    3
+      ID                 RESPONDNT ID NUMBER                                 3
+      REALINC            FAMILY INCOME IN CONSTANT $                         4
+      REALRINC           RS INCOME IN CONSTANT $                             4
+      SEX                RESPONDENTS SEX                                     4
+      YEAR               GSS YEAR FOR THIS RESPONDENT                        4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   March 5, 2014
+
+
+
+      GSS 1972-2008 Cumulative Dataset                                  Page 1
+
+
+      CASEID             CASE IDENTIFICATION NUMBER
+
+           Data type: character
+           Record/columns: 1/2-9
+
+      ________________________________________________________________________
+
+      ABANY              ABORTION IF WOMAN WANTS FOR ANY REASON
+
+           206. Please tell me whether or not you think it should be
+           possible for a pregnant woman to obtaina legal abortion if: g.
+           The woman wants it for any reason?
+
+           VALUE  LABEL
+               0  IAP
+               1  YES
+               2  NO
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/12
+
+      ________________________________________________________________________
+
+      ABFIRM             HOW FIRM IS RS OPINION ON ABORTION
+
+           209c. How firm are you about your opinion on abortion?
+
+           VALUE  LABEL
+               0  IAP
+               1  CHANGE VERY LIKELY
+               2  SOMEWHAT LIKELY
+               3  SOMEWHAT UNLIKELY
+               4  CHANGE VERY UNLIKELY
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/14
+
+
+
+
+
+
+
+
+
+
+
+                                   March 5, 2014
+
+
+
+      GSS 1972-2008 Cumulative Dataset                                  Page 2
+
+
+      ABIMP              IMPORTANCE OF ABORTION ISSUE TO R
+
+           209a. How important is the abortion issue to you?
+
+           VALUE  LABEL
+               0  IAP
+               1  ONE OF MOST IMP
+               2  IMPORTANT
+               3  NOT VERY IMP
+               4  NOT IMP AT ALL
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/16
+
+      ________________________________________________________________________
+
+      ABINFO             HOW MUCH INFO DOES R HAVE ON ABORTION
+
+           209b. How much information do you have about the abortion issue?
+
+           VALUE  LABEL
+               0  IAP
+               1  ALL INFO R NEEDS
+               2  MOST INFO
+               3  SOME INFO
+               4  VERY LITTLE INFO
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   March 5, 2014
+
+
+
+      GSS 1972-2008 Cumulative Dataset                                  Page 3
+
+
+      DEGREE             RS HIGHEST DEGREE
+
+           19. If finished 9th-12th grade: Did you ever get a high school
+           diploma or a GED certificate?
+
+           VALUE  LABEL
+               0  LT HIGH SCHOOL
+               1  HIGH SCHOOL
+               2  JUNIOR COLLEGE
+               3  BACHELOR
+               4  GRADUATE
+               7  IAP
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 7,8,9
+           Record/column: 1/20
+
+      ________________________________________________________________________
+
+      EDUC               HIGHEST YEAR OF SCHOOL COMPLETED
+
+           15. What is the highest grade in elementary school or high
+           school that you finished and got credit for?
+
+           VALUE  LABEL
+              97  IAP
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 97,98,99
+           Record/columns: 1/22-23
+
+      ________________________________________________________________________
+
+      ID                 RESPONDNT ID NUMBER
+
+           Data type: numeric
+           Record/columns: 1/25-28
+
+
+
+
+
+
+
+
+
+
+
+
+                                   March 5, 2014
+
+
+
+      GSS 1972-2008 Cumulative Dataset                                  Page 4
+
+
+      REALINC            FAMILY INCOME IN CONSTANT $
+
+           1577. Family income on 1972-2006 surveys in constant dollars
+           (base = 1986)
+
+            VALUE  LABEL
+                0  IAP
+           999998  DONT KNOW
+           999999  NA
+
+           Data type: numeric
+           Missing-data codes: 0,999999,999998
+           Record/columns: 1/30-35
+
+      ________________________________________________________________________
+
+      REALRINC           RS INCOME IN CONSTANT $
+
+           1578. Respondent's income on 1972-2006 surveys in constant
+           dollars (base = 1986)
+
+            VALUE  LABEL
+                0  IAP
+           999998  DONT KNOW
+           999999  NA
+
+           Data type: numeric
+           Missing-data codes: 0,999999,999998
+           Record/columns: 1/37-42
+
+      ________________________________________________________________________
+
+      SEX                RESPONDENTS SEX
+
+           23. Code respondent's sex
+
+           VALUE  LABEL
+               1  MALE
+               2  FEMALE
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/44
+
+      ________________________________________________________________________
+
+      YEAR               GSS YEAR FOR THIS RESPONDENT
+
+           Data type: numeric
+           Record/columns: 1/46-49
+
+
+
+
+                                   March 5, 2014
+
